@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pidt"
+version = "1.0.0"
+description = "Physics-informed Decision Transformer for battery energy storage control (Journal of Energy Storage, 2027)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [
+  { name = "Pablo Donate" }, { name = "Vicente Torres-Sanz" }, { name = "Francisco J. Martinez" },
+  { name = "Piedad Garrido" }, { name = "Ricardo J. Bessa" }, { name = "Julio A. Sanguesa" },
+]
+dependencies = [
+  "numpy>=2.0",
+  "pandas>=2.2",
+  "torch==2.6.*",
+  "transformers>=5.0,<5.18",
+]
+
+[project.urls]
+Paper = "https://doi.org/10.1016/j.est.2026.125523"
+Repository = "https://github.com/raid-research-lab/physics-informed-dt-bess"
+
+[tool.setuptools.packages.find]
+include = ["pidt*"]

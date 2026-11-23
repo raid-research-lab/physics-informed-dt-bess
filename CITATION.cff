@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "PI-DT: physics-informed Decision Transformer for battery energy storage control"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/raid-research-lab/physics-informed-dt-bess"
+authors:
+  - family-names: Donate
+    given-names: Pablo
+    affiliation: "University of Zaragoza"
+  - family-names: Torres-Sanz
+    given-names: Vicente
+    affiliation: "University of Zaragoza"
+  - family-names: Martinez
+    given-names: Francisco J.
+    affiliation: "University of Zaragoza"
+  - family-names: Garrido
+    given-names: Piedad
+    affiliation: "University of Zaragoza"
+  - family-names: Bessa
+    given-names: Ricardo J.
+    affiliation: "INESC TEC"
+  - family-names: Sanguesa
+    given-names: Julio A.
+    affiliation: "University of Zaragoza"
+preferred-citation:
+  type: article
+  title: "Data-driven predictive control of battery energy storage with physics-informed sequence modeling"
+  authors:
+    - family-names: Donate
+      given-names: Pablo
+    - family-names: Torres-Sanz
+      given-names: Vicente
+    - family-names: Martinez
+      given-names: Francisco J.
+    - family-names: Garrido
+      given-names: Piedad
+    - family-names: Bessa
+      given-names: Ricardo J.
+    - family-names: Sanguesa
+      given-names: Julio A.
+  journal: "Journal of Energy Storage"
+  volume: 183
+  start: 125523
+  year: 2027
+  doi: "10.1016/j.est.2026.125523"
